@@ -21,6 +21,6 @@ public class CommonController{
         HashMap result = new HashMap();
         result.put("message", "안녕하세요");
 
-        return re;
+        return result;
     }
 }
