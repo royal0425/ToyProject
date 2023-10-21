@@ -20,7 +20,7 @@ public class CommonController{
     public HashMap test() {
         HashMap result = new HashMap();
         result.put("message", "안녕하세요");
-
+        System.out.println("Hello");
         return result;
     }
 }
