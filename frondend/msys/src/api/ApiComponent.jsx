@@ -13,7 +13,7 @@ class ApiComponent extends Component {
         axios.get("http://localhost:8080/api")
             .then(res => {
                 console.log(res);
-                
+                console.log(res);
                 this.setState({
                     message: res.data.message
                 })
